@@ -1,0 +1,17 @@
+meta {
+  name: Update book
+  type: http
+  seq: 8
+}
+
+put {
+  url: {{url}}/books/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "price": 23
+  }
+}

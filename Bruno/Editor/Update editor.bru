@@ -1,0 +1,17 @@
+meta {
+  name: Update editor
+  type: http
+  seq: 6
+}
+
+put {
+  url: {{url}}/editors/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "debutDate": "1960-03-10"
+  }
+}

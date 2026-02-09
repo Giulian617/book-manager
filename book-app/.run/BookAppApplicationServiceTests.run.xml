@@ -1,0 +1,20 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name="BookAppApplicationServiceTests" type="JUnit" factoryName="JUnit">
+        <module name="book-app"/>
+        <extension name="coverage">
+            <pattern>
+                <option name="PATTERN" value="com.unibuc.book_app.*"/>
+                <option name="ENABLED" value="true"/>
+            </pattern>
+        </extension>
+        <option name="PACKAGE_NAME" value="com.unibuc.book_app"/>
+        <option name="MAIN_CLASS_NAME" value=""/>
+        <option name="METHOD_NAME" value=""/>
+        <option name="TEST_OBJECT" value="directory"/>
+        <option name="VM_PARAMETERS"/>
+        <dir value="$PROJECT_DIR$/src/test/java/com/unibuc/book_app/service"/>
+        <method v="2">
+            <option name="Make" enabled="true"/>
+        </method>
+    </configuration>
+</component>

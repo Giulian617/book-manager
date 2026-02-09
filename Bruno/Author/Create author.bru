@@ -1,0 +1,19 @@
+meta {
+  name: Create author
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{url}}/authors
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "firstName": "Fredrick",
+    "lastName": "Bachmann",
+    "debutDate": "1987-12-12"
+  }
+}

@@ -1,0 +1,17 @@
+meta {
+  name: Update translator
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}/translators/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "firstName": "Sebastian"
+  }
+}

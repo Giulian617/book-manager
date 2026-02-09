@@ -1,0 +1,18 @@
+meta {
+  name: Create publisher
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{url}}/publishers
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Sophia",
+    "foundedDate": "2025-11-12"
+  }
+}

@@ -1,0 +1,17 @@
+meta {
+  name: Update category
+  type: http
+  seq: 5
+}
+
+put {
+  url: {{url}}/categories/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Horror"
+  }
+}

@@ -1,0 +1,19 @@
+meta {
+  name: Create editor
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{url}}/editors
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "firstName": "Mihaita",
+    "lastName": "Dragan",
+    "debutDate": "1977-07-09"
+  }
+}

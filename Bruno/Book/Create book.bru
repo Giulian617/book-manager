@@ -1,0 +1,23 @@
+meta {
+  name: Create book
+  type: http
+  seq: 7
+}
+
+post {
+  url: {{url}}/books
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Intre iadul deznadejdii si iadul smereniei",
+    "isbn": "973-9344-56-9",
+    "noPages": 302,
+    "price": 27,
+    "language": "romanian",
+    "publishDate": "2024-03-10",
+    "translatorId": 1
+  }
+}

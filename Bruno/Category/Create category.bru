@@ -1,0 +1,17 @@
+meta {
+  name: Create category
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{url}}/categories
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Fantasy"
+  }
+}

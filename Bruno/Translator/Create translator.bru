@@ -1,0 +1,18 @@
+meta {
+  name: Create translator
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{url}}/translators
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "firstName": "Andrei-Fabian",
+    "lastName": "Neculae"
+  }
+}
